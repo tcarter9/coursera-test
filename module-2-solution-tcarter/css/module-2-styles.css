@@ -1,0 +1,69 @@
+/********** Basic page styles **********/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Apple Chancery;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    color: white;
+    margin-top: 50px;
+    font-size: 100%
+}
+
+.row div {
+    position: relative;
+    margin: 5px .5%;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+h2 {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 125%;
+}
+
+.breakfast-menu {
+    background-color: #417505;
+}
+
+.breakfast-menu h2 {
+    background-color: #ff0000;
+}
+
+.lunch-menu {
+    background-color: #ff0000;
+}
+
+.lunch-menu h2 {
+    background-color: #C4AA7F; 
+}
+
+.dinner-menu {
+    background-color: #C4AA7F;
+}
+
+.dinner-menu h2{
+    background-color: #417505;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+}
